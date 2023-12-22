@@ -8,7 +8,13 @@ sudo docker network create xl-wordpress
 docker-compose up --build
 
 ```
-
+```sh
+cd to path theme wp-latest\wp-content\themes\sage-main
+wsl
+composer install
+yarn
+yarn run dev
+```
 ## Admin info
 ```sh
 url: http://localhost:8080
