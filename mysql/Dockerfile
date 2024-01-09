@@ -1,4 +1,4 @@
-FROM mysql:8.0.0
+FROM mysql:latest
 
 MAINTAINER binhqd
 
